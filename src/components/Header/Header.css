@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30%;
+}
+.logo{
+    background: white;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    width: 100px;
+}
+.banner{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #f0f8ff;
+}
+.banner label{
+    color: #0084ff;
+    border: 1px solid #0084ff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.banner h2{
+    color: #1c3c50;
+    font-family: var(--font-medium);
+}
+.banner h1{
+    color: #0084ff;
+    font-family: var(--font-bold);
+}
+.banner h4{
+    border-top:1px solid #c8d4dd;
+}

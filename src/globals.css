@@ -1,10 +1,20 @@
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
-
+  --font-bold:url('./fonts/PlusJakartaSans-Bold.ttf');
+  --font-bold-italic:url('./fonts/PlusJakartaSans-BoldItalic.ttf');
+  --font-extra-bold:url('./fonts/PlusJakartaSans-ExtraBold.ttf');
+  --font-extra-bold-italic:url('./fonts/PlusJakartaSans-ExtraBoldItalic.ttf');
+  --font-extra-light:url('./fonts/PlusJakartaSans-ExtraLight.ttf');
+  --font-extra-light-italic:url('./fonts/PlusJakartaSans-ExtraLightItalic.ttf');
+  --font-italic:url('./fonts/PlusJakartaSans-Italic.ttf');
+  --font-light:url('./fonts/PlusJakartaSans-Light.ttf');
+  --font-light-italic:url('./fonts/PlusJakartaSans-LightItalic.ttf');
+  --font-medium:url('./fonts/PlusJakartaSans-Medium.ttf');
+  --font-medium-italic:url('./fonts/PlusJakartaSans-MediumItalic.ttf');
+  --font-regular:url('./fonts/PlusJakartaSans-Regular.ttf');
+  --font-semibold:url('./fonts/PlusJakartaSans-SemiBold.ttf');
+  --font-semibold-italic:url('./fonts/PlusJakartaSans-SemiBoldItalic.ttf');
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
