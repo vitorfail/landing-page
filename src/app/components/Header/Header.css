@@ -13,7 +13,8 @@
     justify-content: center;
 }
 .logo img{
-    width: 100px;
+    width: 83px;
+    height: 22px;
 }
 .banner{
     width: 100%;
@@ -24,21 +25,28 @@
     flex-direction: column;
     background: #f0f8ff;
 }
-.banner label{
+.banner label:nth-child(1){
+    padding: 4px;
+    font-size: 13px;
     color: #0084ff;
     border: 1px solid #0084ff;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
 }
-.banner h2{
+.banner label:nth-child(2){
     color: #1c3c50;
-    font-family: var(--font-medium);
-}
-.banner h1{
-    color: #0084ff;
+    font-size: 35px;
     font-family: var(--font-bold);
 }
-.banner h4{
+.banner label:nth-child(3){
+    font-size: 50px;
+    color: #0084ff;
+    font-weight: 700;
+    font-family: var(--font-extra-bold);
+}
+.banner label:nth-child(4){
+    font-weight: 400;
+    font-family: var(--font-extra-light);
     border-top:1px solid #c8d4dd;
 }

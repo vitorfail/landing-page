@@ -1,0 +1,63 @@
+.content{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 60%;
+}
+.content .aba{
+    padding-bottom:20px ;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #c8d4dd;
+}
+.content .aba .titulos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content .aba .titulos label{
+    margin: 5px;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 14px;
+    border: 1px solid;
+}
+.content .aba .titulos label:hover{
+    color: #0084ff;
+    border: 1px solid #0084ff;
+}
+.content .cards{
+    margin-top: 20px;
+    height: 700px;
+    width: 65%;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.content .cards .card{
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.13);
+    height: 30%;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+}
+.content .cards .card:hover label{
+    transition: 0.2s;
+    color: #0329ff;
+}
+.content .cards .card img{
+    width: 100%;
+    height: 75%;
+}
+.content .cards .card label{
+    width: 100%;
+    height: 25%;
+}
