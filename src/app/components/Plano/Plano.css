@@ -10,35 +10,79 @@
 .plano .thumb{
     height: 460px;
     width: 460px;
-
 }
 .plano .descri-plano{
+    margin-left: 40px;
     display: flex;
     flex-direction: column;
-    height: 200px;
-    width: 300px;
+    align-items: start;
+    height: 400px;
+    width: 492px;
+    justify-content: space-evenly;
 }
 .plano .descri-plano label{
     width: 100%;
     font-family: var(--font-medium);
 }
+.plano .avaliacao{
+    display: flex;
+}
+.plano .avaliacao h3{
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: var(--font-extra-light);
+}
+.plano .avaliacao .frases{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .plano .descri-plano label:nth-child(1){
+    width: 300px;
+    text-align: left;
     font-size: 40px;
 }
 .plano .botoes{
+    width: 100%;
+    padding-top: 23px;
+    border-top: 2px solid #c8d4dd;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     display: flex;
     width: 100%;
     min-height: 40px;
 }
-.plano .botoes h3{
+.plano .botoes button{
+    border: none;
+    padding: 20px 15px;
     background: #0329ff;
     border-radius: 30px;
     color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
 }
 .plano .botoes img{
-    width: 100px;
-    height: 30px;
+    width: 150px;
+    height: 42px;
 }
 @media screen and (max-width:780px){
+    .plano .thumb{
+        height: 100%;
+        width: 90%;
+    }
+    .plano{
+        flex-direction: column;
+    }
+    .plano .descri-plano{
+        margin: 0;
+        text-align: center;
+    }
+    .plano .descri-plano .botoes{
+        justify-content: center;
+    }
 }
 

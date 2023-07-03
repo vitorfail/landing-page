@@ -48,7 +48,7 @@
 .banner label:nth-child(4){
     font-weight: 400;
     font-family: var(--font-extra-light);
-    border-top:1px solid #c8d4dd;
+    border-top:2px solid #c8d4dd;
 }
 @media screen and (max-width:780px){
     .banner label:nth-child(3){
