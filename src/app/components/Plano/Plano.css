@@ -30,7 +30,7 @@
 .plano .avaliacao h3{
     justify-content: center;
     align-items: center;
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 400;
     font-family: var(--font-extra-light);
 }
@@ -38,6 +38,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.plano .avaliacao .frases:nth-child(2){
+    padding-left: 10px;
+    border-left: 2px solid rgba(0, 0, 0, 0.507);
+}
+.plano .avaliacao .frases:nth-child(1){
+    padding-right: 10px;
 }
 .plano .descri-plano label:nth-child(1){
     width: 300px;
@@ -78,11 +85,32 @@
         flex-direction: column;
     }
     .plano .descri-plano{
+        align-items: center;
+        height: 300px;
+        width: 100%;
         margin: 0;
         text-align: center;
     }
     .plano .descri-plano .botoes{
         justify-content: center;
+    }
+    .plano .avaliacao .frases:nth-child(2){
+        padding: 0;
+        border: none;
+    }
+    .plano .avaliacao .frases:nth-child(1){
+        padding: 0;
+        border: none;
+    }
+    .plano .avaliacao{
+        flex-direction: column;
+    }
+    .plano .descri-plano label:nth-child(1) {
+        text-align: center;
+        font-size: 30px;
+    }
+    .plano .botoes button {
+        font-size: 10px;
     }
 }
 
