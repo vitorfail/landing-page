@@ -58,6 +58,12 @@ export default function Videos(){
                 </div>
 
             </div>
+            <div className='index'>
+                <h2>Página</h2>
+                <h2 className='indice'>1</h2>
+                <h2 className='indice'>2</h2>
+                <h2 className='indice'>3</h2>
+            </div>
         </div>
     )
 }
