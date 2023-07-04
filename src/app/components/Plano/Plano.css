@@ -65,14 +65,23 @@
 .plano .botoes button{
     border: none;
     padding: 20px 15px;
-    background: #0329ff;
+    background: #0084ff;
     border-radius: 30px;
     color: white;
     text-align: center;
     align-items: center;
     font-size: 14px;
 }
+.plano .botoes button:hover{
+    transition: all 0.2s;
+    cursor: pointer;
+    outline: 1px solid #0084ff;
+    background: white;
+    border-radius: 30px;
+    color: #0084ff;
+}
 .plano .botoes img{
+    margin-left: 3px;
     width: 150px;
     height: 42px;
 }

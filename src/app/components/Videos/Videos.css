@@ -33,6 +33,14 @@
     color: #0084ff;
     border: 1px solid #0084ff;
 }
+.content .aba .selecao label{
+    font-weight: 500;
+}
+.content .aba .selecao select{
+    padding: 3px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
 .content .cards{
     margin-top: 20px;
     min-height: 700px;
@@ -55,34 +63,64 @@
     transition: 0.2s;
     color: #0329ff;
 }
-.content .cards .card img{
+.content .cards .card .imagem{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     width: 100%;
-    height: 75%;
+    height: 153px;
+}
+.content .cards .card:hover{
+    box-shadow: 2px 8px 18px rgba(0, 0, 0, 0.178);  
+}
+.content .cards .card:hover> .imagem .thumb{
+    transition: all 0.2;
+    display: flex;
+}
+.content .cards .card .imagem .thumb{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: none;
+    height: inherit;
+    width: inherit;
+    background: #0084ff7e;
+}
+.content .cards .card .imagem .imag-hover{
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    background: #0329ff81;
 }
 .content .cards .card label{
+    margin: 5px;
+    font-weight: 400;
     width: 100%;
     height: 25%;
 }
 .content .index{
-    border-top: 2px solid #c8d4dd;
+    border-top: 1.5px solid #c8d4dd;
     width: 65%;
-    height: 50px;
-    padding-top: 30px;
+    height: 99px;
+    margin-top: 23px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .content .index h2{
-    transition: 0.2s;
+    font-size: 17px;
+    transition:all 0.2s;
     font-weight: 500;
 }
 .content .index .indice{
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
     text-align: center;
     justify-content: center;
     width: 30px;
-    height: 30px;
-}
+    height: 30px;}
 .content .index .indice:hover{
-    border-radius: 2px;
+    border-radius: 8px;
     cursor: pointer;
     border: 1px solid #0329ff;
     color: #0329ff;
