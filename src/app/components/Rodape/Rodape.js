@@ -8,7 +8,7 @@ import Linkedim from '../../images/linkedin.png'
 export default function Rodape(){
     return(
         <div className="rodape">
-            <Image className='logo' src={Logo}></Image>
+            <Image alt='logo' className='logo' src={Logo}></Image>
             <label>Transformando visitantes em clientes</label>
             <div className='info'>
                 <div className='coluna'>
@@ -36,13 +36,13 @@ export default function Rodape(){
                     <h3>Siga a Leadster</h3>
                     <div className='icons'>
                         <div className='backs'>
-                            <Image src={Linkedim}></Image>
+                            <Image alt='Linkedim' src={Linkedim}></Image>
                         </div>
                         <div className='backs'>
-                            <Image src={Facebook}></Image>
+                            <Image alt='Facebook' src={Facebook}></Image>
                         </div>
                         <div className='backs'>
-                            <Image src={Instagram}></Image>
+                            <Image alt='intagram' src={Instagram}></Image>
                         </div>
                     </div>
                     <h4><strong>Email:</strong>contato@leadster.com.br</h4>

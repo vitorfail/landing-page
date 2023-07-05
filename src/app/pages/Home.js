@@ -8,11 +8,14 @@ import Popup from '../components/Popup/Popup'
 import { useState } from 'react'
 export default function Home() {
   const [popup, setpopup] = useState(false)
+  const [descri, setdescri] = useState('')
+  const [link, setlink] =useState('')
+  const [titulo, settitulo] =useState('')
   return (
     <main className={styles.home}>
-      <Popup estado={popup} abrir_fechar={setpopup}></Popup>
+      <Popup descri={descri} titulo={titulo} link={link} estado={popup} abrir_fechar={setpopup}></Popup>
       <Header></Header>
-      <Videos estado={popup} abrir_fechar={setpopup}></Videos>
+      <Videos setlink={setlink}  settitulo={settitulo} setdescri={setdescri} titulo={titulo} estado={popup} abrir_fechar={setpopup}></Videos>
       <Plano></Plano>
       <Rodape></Rodape>
     </main>

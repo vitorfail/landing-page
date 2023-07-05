@@ -7,21 +7,21 @@ import './Plano.css'
 export default function Plano(){
     return(
         <div className="plano">
-            <Image className='thumb' src={Thumb}></Image>
+            <Image alt='thumb' className='thumb' src={Thumb}></Image>
             <div className='descri-plano'>
                 <label>Pronto para triplicar a sua <strong>Geração de Leads?</strong></label>
                 <label>Criação e ativação em <strong>3 minutos</strong></label>
                 <div className='botoes'>
                     <button>VER DEMONSTRAÇÃO</button>
-                    <Image src={Butt}></Image>
+                    <Image alt='Rate' src={Butt}></Image>
                 </div>
                 <div className='avaliacao'>
                     <div className='frases'>
-                        <Image src={Cartao}></Image>
+                        <Image alt='cartao' src={Cartao}></Image>
                         <h3>Não é necessário Cartão de Crédito</h3>
                     </div>
                     <div className='frases'>
-                        <Image src={Estrelas}></Image>
+                        <Image alt='Estrelas' src={Estrelas}></Image>
                         <h3>4.9/5 média de satisfação</h3>
                     </div>
                 </div>
