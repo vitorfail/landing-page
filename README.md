@@ -24,7 +24,11 @@ Agora o endereço [http://localhost:3000](http://localhost:3000) no seu navegado
 O Projeto possui uma única `page` mas nessa possuem `5 componentes`, são eles: `Header`, `Videos`,`Plano`, `Rodape`, `Popup`.
 
 `Header`: É onde está o cabeçalho da página. Contado a chamada para ação e a logo da empresa.
+
 `Videos`: O nome é bem intuitivo, é um componente onde fica os containers do vídeos dos cursos que serão oferecidos. Contém também os controles e números de páginas. Os links, titulos e descrições do videos que serão mostrados na página oficial estão em vários `JSON´s` armazenados em um Array. Esse array é jogado em uma função `map` que gera os elementos que compõe esse container.
+
 `Plano`: É o componente onde fica a avalição e o botão para acessar os planos e serviços que a empresa tem a oferecer.
+
 `Rodape`: Ficam as informações finais da empresa e os link para acessar outras páginas ou redes sociais da empresa.
+
 `Popup`: É o Pop-Up que surge toda vez que se clica em um dos vídeos. As informçaões que preenche esse popup mudam de acordo com o video e o curso que você clica   
