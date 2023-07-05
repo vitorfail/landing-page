@@ -1,0 +1,97 @@
+.popup{
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.493);
+    justify-content: center;
+    align-items: center;
+}
+.popup.show{
+    display: flex;
+}
+.popup .modal{
+    z-index: 300;
+    position: fixed;
+    top: 60px;
+    width: 490px;
+    min-height: 500px;
+    border-radius: 40px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.popup .modal .fechar{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: end;
+}
+.popup .modal .fechar button{
+    margin-right: 15px;
+    border: none;
+    background: none;
+    font-size: 25px;
+    font-weight: 500;
+}
+.popup .modal .fechar button:hover{
+    cursor: pointer;
+}
+.popup .modal .titulo{
+    text-align: center;
+    height: 50px;
+    font-size: 20px;
+    width: 100%;
+}
+.popup .modal iframe{
+    height: 250px;
+    width: 100%;
+}
+.popup .modal .descri{
+    padding: 15px;
+    width: 100%;
+    min-height: 120px;
+}
+.popup .modal .descri .linha{
+    background: #c8d4dd;
+    width: 100%;
+    height: 1.5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.popup .modal .descri label:nth-child(1){
+    font-weight: 600;
+}
+.popup .modal .descri .dowloads{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.popup .modal .descri .dowloads .click{
+    border-radius: 9px;
+    align-items: center;
+    justify-content: start;
+    display: flex;
+    width: 140px;
+    height: 30px;
+}
+.popup .modal .descri .dowloads .click:hover{
+    cursor: pointer;
+}
+.popup .modal .descri .dowloads .click img{
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    background: rgba(0, 0, 0, 0.082);
+    height: 100%;
+    width: auto;
+}
+.popup .modal .descri .dowloads .click label{
+    margin-left: 8px;
+    font-size: 13px;
+}
+@media screen and (max-width:780px){
+}

@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Thumb from '../../images/thumbnail.png'
 import Play from '../../images/play.png'
 import './Videos.css'
-export default function Videos(){
+export default function Videos(props){
     return(
         <div className="content">
             <div className='aba'>
@@ -21,7 +21,7 @@ export default function Videos(){
                 </div>
             </div>
             <div className='cards'>
-                <div className='card'>
+                <div className='card' onClick={() => props.abrir_fechar(true)}>
                     <div className='imagem' style={{backgroundImage: `url(${Thumb.src})`,
                     backgroundPosition: 'center',
                     backgroundSize: 'cover',
@@ -34,7 +34,7 @@ export default function Videos(){
                     </div>
                     <label>Como aumentar a geração e Leads Feat.Traktor</label>
                 </div>
-                <div className='card'>
+                <div className='card' onClick={() => props.abrir_fechar(true)}>
                     <div className='imagem' style={{backgroundImage: `url(${Thumb.src})`,
                     backgroundPosition: 'center',
                     backgroundSize: 'cover',
@@ -47,7 +47,7 @@ export default function Videos(){
                     </div>
                     <label>Como aumentar a geração e Leads Feat.Traktor</label>
                 </div>
-                <div className='card'>
+                <div className='card' onClick={() => props.abrir_fechar(true)}>
                     <div className='imagem' style={{backgroundImage: `url(${Thumb.src})`,
                     backgroundPosition: 'center',
                     backgroundSize: 'cover',
@@ -60,7 +60,7 @@ export default function Videos(){
                     </div>
                     <label>Como aumentar a geração e Leads Feat.Traktor</label>
                 </div>
-                <div className='card'>
+                <div className='card' onClick={() => props.abrir_fechar(true)}>
                     <div className='imagem' style={{backgroundImage: `url(${Thumb.src})`,
                     backgroundPosition: 'center',
                     backgroundSize: 'cover',
@@ -73,7 +73,7 @@ export default function Videos(){
                     </div>
                     <label>Como aumentar a geração e Leads Feat.Traktor</label>
                 </div>
-                <div className='card'>
+                <div className='card' onClick={() => props.abrir_fechar(true)}>
                     <div className='imagem' style={{backgroundImage: `url(${Thumb.src})`,
                     backgroundPosition: 'center',
                     backgroundSize: 'cover',
@@ -86,7 +86,7 @@ export default function Videos(){
                     </div>
                     <label>Como aumentar a geração e Leads Feat.Traktor</label>
                 </div>
-                <div className='card'>
+                <div className='card' onClick={() => props.abrir_fechar(true)}>
                     <div className='imagem' style={{backgroundImage: `url(${Thumb.src})`,
                     backgroundPosition: 'center',
                     backgroundSize: 'cover',
@@ -99,7 +99,7 @@ export default function Videos(){
                     </div>
                     <label>Como aumentar a geração e Leads Feat.Traktor</label>
                 </div>
-                <div className='card'>
+                <div className='card' onClick={() => props.abrir_fechar(true)}>
                     <div className='imagem' style={{backgroundImage: `url(${Thumb.src})`,
                     backgroundPosition: 'center',
                     backgroundSize: 'cover',
@@ -112,7 +112,7 @@ export default function Videos(){
                     </div>
                     <label>Como aumentar a geração e Leads Feat.Traktor</label>
                 </div>
-                <div className='card'>
+                <div className='card' onClick={() => props.abrir_fechar(true)}>
                     <div className='imagem' style={{backgroundImage: `url(${Thumb.src})`,
                     backgroundPosition: 'center',
                     backgroundSize: 'cover',
@@ -125,7 +125,7 @@ export default function Videos(){
                     </div>
                     <label>Como aumentar a geração e Leads Feat.Traktor</label>
                 </div>
-                <div className='card'>
+                <div className='card' onClick={() => props.abrir_fechar(true)}>
                     <div className='imagem' style={{backgroundImage: `url(${Thumb.src})`,
                     backgroundPosition: 'center',
                     backgroundSize: 'cover',
