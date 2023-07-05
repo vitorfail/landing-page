@@ -1,34 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Essa é uma atividade front-end feita em [Next.js](https://nextjs.org/) para a empresa [Leadster](https://leadster.com.br/?utm_source=branding&utm_medium=cpc&utm_campaign=bofu_pql_CA_search_branding_leadster&utm_term={leadster}&utm_content=CJ_leadster&utm_source=branding&utm_medium=cpc&utm_campaign=Branding_leadster&gad=1&gclid=CjwKCAjwqZSlBhBwEiwAfoZUIIbEbPAjmrVWGHHoodASwU1Sej524GdPB1kgv2mZ5WdfkWnQyDkaohoCSh8QAvD_BwE).
+Seu Deploy foi feito na [`Vercel`](https://vercel.com/vitorfail) e o site em funcionamento pode ser visto por esse [link](https://landing-page-git-master-vitorfail.vercel.app/)
 
-## Getting Started
+## Partindo o princípio
 
-First, run the development server:
+Se você não possuir um ambiente preparado para executar o sistema primeiramente você precisa fazer o dowload do [Node.js](https://nodejs.org/en). E após isso fazer o dowload do [Git](https://git-scm.com/downloads) no seu computador.
+
+## Baixando e executando o projeto
+
+Agora acesse o terminal e digite `git clone https://github.com/vitorfail/landing-page.git`. Com isso você irá clonar este repositório no seu computador. Ainda no terminal digite `cd landing-page` para entrar na pasta. No terminal digite `npm install`. Para intalar as dependências e módulos necessários para esta projeto rodar. Após isso ainda pode rodas o comando `npm install react@latest react-dom@latest next@latest` para suprir possíveis dependências. Agora é só executar um dos códigos abaixo
 
 ```bash
 npm run dev
-# or
+# Para usa yarn
 yarn dev
-# or
+# Para quem usa pnpm
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Agora o endereço [http://localhost:3000](http://localhost:3000) no seu navegador e veja sua página. :)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Sobre o código
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+O Projeto possui uma única `page` mas nessa possuem `5 componentes`, são eles: `Header`, `Videos`,`Plano`, `Rodape`, `Popup`.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+`Header`: É onde está o cabeçalho da página. Contado a chamada para ação e a logo da empresa.
+`Videos`: O nome é bem intuitivo, é um componente onde fica os containers do vídeos dos cursos que serão oferecidos. Contém também os controles e números de páginas. Os links, titulos e descrições do videos que serão mostrados na página oficial estão em vários `JSON´s` armazenados em um Array. Esse array é jogado em uma função `map` que gera os elementos que compõe esse container.
+`Plano`: É o componente onde fica a avalição e o botão para acessar os planos e serviços que a empresa tem a oferecer.
+`Rodape`: Ficam as informações finais da empresa e os link para acessar outras páginas ou redes sociais da empresa.
+`Popup`: É o Pop-Up que surge toda vez que se clica em um dos vídeos. As informçaões que preenche esse popup mudam de acordo com o video e o curso que você clica   
